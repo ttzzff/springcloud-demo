@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka-7002" />
+        <module name="cloud-eureka-7001" />
+        <module name="demo2123122" />
+        <module name="cloud-customer-dept" />
+        <module name="provide-user" />
+        <module name="micruservicecloud-provide-dept" />
+        <module name="cloud-eureka-7003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-eureka" target="1.8" />
+      <module name="cloudeureka7001" target="1.5" />
+      <module name="midcrosevicecloudapi" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-customer-dept" options="-parameters" />
+      <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-eureka-7001" options="-parameters" />
+      <module name="cloud-eureka-7002" options="-parameters" />
+      <module name="cloud-eureka-7003" options="-parameters" />
+      <module name="demo2123122" options="-parameters" />
+      <module name="micruservicecloud-provide-dept" options="-parameters" />
+      <module name="provide-user" options="-parameters" />
+    </option>
+  </component>
+</project>

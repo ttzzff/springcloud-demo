@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+#客户端注册进eureka服务器列表
+eureka:
+  client:
+    #是否从EurekaServer中抓取自己的信息，默认为true。单节点无所谓，集群时候必须开启才能结合ribbon使用负载均衡
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/,http://eureka7003:7003/eureka/
+
+
+
+

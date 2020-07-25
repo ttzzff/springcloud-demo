@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: provide-user
+
+server:
+  port: 8078
+
+eureka:
+  instance:
+    preferIpAddress:  true
+  client:
+    registerWithEureka: true
+    fetchRegistry:  true
+    serviceUrl:
+      defaultZone:  http://localhost:7001/eureka/
+
+info:
+  app.name: provide-user
+  company.name: tzf
+
+
